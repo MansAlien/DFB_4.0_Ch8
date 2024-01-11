@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- The title of the Website -->
-    <title> {% block title %} Newspaper App {% endblock title %} </title>
+    <title> {% block title %} Studio Vision {% endblock title %} </title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         <header class="p-3 mb-3 border-bottom">
             <div class="d-flex flex-wrap align-items-center justify-content-center
                 justify-content-lg-start">
-                <a class="navbar-brand" href="{% url 'home' %}">Newspaper</a>
+                <a class="navbar-brand" href="{% url 'home' %}">Studio Vision</a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center
                     mb-md-0">
                     {% if user.is_authenticated %}
